@@ -59,7 +59,7 @@ So, you have the lighting part pretty well set at this point. On to Modelling
 		   N - 48mm
 		   T - 45mm
 		   You have an extra 12mm to help hide wires and whatnot on the S
-5. Here is the [COOPER lamp](https://drive.google.com/file/d/1jMSK0Cl9lNf0YewP2eP6GYcCUbMBdHAZ/view?usp=sharing) Fusion file - In there there is the ESP32 standoff component - if you want to just copy/paste that instead of measuring - it should work. Maybe print that by itself really quick just to confirm
+5. Here is the [COOPER lamp](https://github.com/sottenad/WLED-Signs/raw/refs/heads/main/CoopLamp%20v5.f3z) Fusion file - In there there is the ESP32 standoff component - if you want to just copy/paste that instead of measuring - it should work. Maybe print that by itself really quick just to confirm
 
 ## 4: Initial Assembly
 
@@ -74,8 +74,8 @@ So, you have the lighting part pretty well set at this point. On to Modelling
 1. https://www.youtube.com/watch?v=uU7sucuoowc  Watch this whole video before you start the final button/switch soldering - the pinout for the board I linked is [here](https://myhomethings.eu/wp-content/uploads/2024/02/ESP32-30pin-Develeopmen-Board-1-2048x1114.webp) 
 	1. I like to get this all running on the bench first before installing into the sign and soldering everything in place
 2. If you want to use the presets and config I was using:
-	2. https://drive.google.com/file/d/1Z74hxr4oetYn9aufC2bsm_3xvuhenn3c/view?usp=sharing
-	3. https://drive.google.com/file/d/1MIObKg1dRt3G30v6T7FoP54sHv9s8jX2/view?usp=sharing
+	2. https://raw.githubusercontent.com/sottenad/WLED-Signs/refs/heads/main/wled_cfg.json
+	3. https://raw.githubusercontent.com/sottenad/WLED-Signs/refs/heads/main/wled_presets.json
 	4. Rocker switch goes to D5 (GPIO5)
 	5. Push Button goes to TX0 (GPIO1)
 3. From there - its just a matter of slotting the button/switch/power into place, and soldering everything up.
